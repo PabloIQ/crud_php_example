@@ -5,9 +5,9 @@ $stmt = $pdo->query('SELECT * FROM libros');
 $libros = $stmt->fetchAll();
 ?>
 
-<h2>Listado de Jabones</h2>
+<h2>Listado de Libros</h2>
 
-<!-- Botón para crear un nuevo jabón -->
+<!-- Botón para crear un nuevo libro -->
 <a href="create.php">Crear nuevo Libro</a>
 <br><br>
 
